@@ -1,6 +1,6 @@
 Interactive Data Management Tool
 Project for: Web Developer Test Specification
-Version: 1.0 (Final Submission)
+Version: 1.0 
 Submission Date: 10 September 2025
 Developer: Jefri Thimoathi Johnson
 
@@ -67,7 +67,7 @@ Click "Add New Line" to create a fresh row.
 
 In this new row, click the "Upload File" button.
 
-Select your correctly formatted test document (test_invoice_correct.pdf).
+Select your correctly formatted test document.
 
 Observe the "Processing..." indicator, followed by the "Description" and "Cost" fields being automatically populated with the data extracted from the document. The chart will also update.
 
