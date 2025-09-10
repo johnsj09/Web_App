@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import DataTable from './components/DataTable';
+import ChartComponent from './components/ChartComponent'; // Import the chart component
 
 function App() {
   const [rows, setRows] = useState([]);
@@ -36,7 +37,7 @@ function App() {
 
         <section className="mb-8 p-6 bg-white rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-slate-700 mb-4">Data Visualization</h2>
-          {/* ChartComponent will go here */}
+          <ChartComponent rows={rows} /> {/* Render the chart and pass the data */}
         </section>
 
         <section className="p-6 bg-white rounded-lg shadow-md">
