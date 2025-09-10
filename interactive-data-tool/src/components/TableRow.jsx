@@ -56,7 +56,7 @@ const TableRow = ({ row, onUpdateRow, onProcessFile }) => {
               ref={fileInputRef}
               onChange={handleFileChange}
               className="hidden"
-              accept=".pdf,.png,.jpg,.jpeg"
+              accept=".pdf,.png,.jpg,.jpeg" // Updated to accept images
             />
             <button
               onClick={handleUploadClick}
