@@ -1,7 +1,7 @@
 import React from 'react';
-import TableRow from './TableRow'; // Import the new component
+import TableRow from './TableRow';
 
-const DataTable = ({ rows, onAddNewRow, onUpdateRow }) => {
+const DataTable = ({ rows, onAddNewRow, onUpdateRow, onProcessFile }) => {
   return (
     <div>
       <div className="flex justify-end mb-4">
@@ -27,6 +27,7 @@ const DataTable = ({ rows, onAddNewRow, onUpdateRow }) => {
                 key={row.id}
                 row={row}
                 onUpdateRow={onUpdateRow}
+                onProcessFile={onProcessFile}
               />
             ))}
           </tbody>
